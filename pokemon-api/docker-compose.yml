@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  db:
+    image: im-postgres
+    container_name: cont-postgres
+    ports:
+      - '5434:5432'
